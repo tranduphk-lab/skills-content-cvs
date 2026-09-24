@@ -1,0 +1,64 @@
+version: 1
+status: draft
+last_updated: 2026-09-24
+instructions:
+  - This register is a control document, not final legal or scientific approval.
+  - A claim is not production-ready without subject, verb strength, source, limitation, owner, and approval status.
+  - Ingredient or background science does not prove finished-product efficacy.
+items:
+  - id: CAV-BRAND-001
+    subject: brand
+    statement: Cavisi is a scalp-care brand organized through a Scalp-first philosophy.
+    status: brand-approved
+    allowed_use: brand/category explanation
+    limitation: Scalp-first is not a treatment or efficacy claim.
+    required_review: []
+  - id: CAV-SYSTEM-001
+    subject: product-system
+    statement: Shampoo is the cleansing foundation; Spray is the continuing-care step.
+    status: brand-approved
+    allowed_use: explain product architecture
+    limitation: Final wording must match approved product/legal records.
+    required_review: [product_review]
+  - id: CAV-TRUST-001
+    subject: brand
+    statement: Cavisi aims to clarify role, source, and limitation.
+    status: brand-approved
+    allowed_use: communication approach
+    limitation: Do not claim full implementation unless public touchpoints provide it.
+    required_review: []
+  - id: CAV-SHAMP-001
+    subject: finished_product
+    statement: Shampoo helps cleanse hair and scalp.
+    status: product-pending
+    allowed_use: draft educational copy only
+    limitation: Confirm final legal name, claims, directions, and label wording.
+    required_review: [product_review, legal_review]
+  - id: CAV-SPRAY-001
+    subject: finished_product
+    statement: Spray is used on hair/scalp as a continuing-care step.
+    status: product-pending
+    allowed_use: draft system explanation only
+    limitation: Confirm directions, frequency, leave-on/rinse status.
+    required_review: [product_review, legal_review]
+  - id: CAV-MICRO-001
+    subject: brand_direction
+    statement: Microbiome Care is a brand direction.
+    status: brand-approved
+    allowed_use: define the direction with limitation
+    limitation: Do not state that finished product restores or balances the microbiome.
+    required_review: []
+  - id: CAV-EFFICACY-001
+    subject: finished_product
+    statement: 24-hour efficacy, barrier repair, microbiome restoration/balance, clinical or dermatologist-tested claims.
+    status: prohibited-until-approved
+    allowed_use: []
+    limitation: Require claim-specific finished-product evidence, legal approval, and publication rights.
+    required_review: [product_review, legal_review, science_review, publication_review]
+  - id: CAV-MEDICAL-001
+    subject: medical
+    statement: Treat, cure, diagnose, eliminate root cause, replace medical advice.
+    status: prohibited-until-approved
+    allowed_use: []
+    limitation: Outside current brand/product scope.
+    required_review: [legal_review]

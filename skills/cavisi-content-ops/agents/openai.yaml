@@ -1,0 +1,5 @@
+interface:
+  display_name: "Cavisi Content Ops"
+  short_description: "Build and optimize evidence-aware Cavisi content systems"
+  brand_color: "#00516D"
+  default_prompt: "Use $cavisi-content-ops to plan, ideate, brief, review, and optimize Cavisi content."

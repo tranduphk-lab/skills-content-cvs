@@ -1,0 +1,30 @@
+schema_version: 1
+slug: cavisi
+name: Cavisi
+one_liner: "Thương hiệu chăm sóc da đầu theo triết lý Scalp-first, kết nối Shampoo và Spray trong một chu trình hai bước."
+tagline: ""
+archetype: "Sage"
+status: draft
+stage: ""
+industry: "Mỹ phẩm chăm sóc da đầu"
+languages: [vi]
+links:
+  domain: ""
+  repo: ""
+created: 2026-09-14
+updated: 2026-09-14
+version: 1
+artifacts:
+  context: true
+  audience: true
+  competitors: true
+  naming: false
+  strategy: true
+  architecture: true
+  identity: true
+  voice: true
+  messaging: true
+  positioning: true
+  story: false
+  guidelines: true
+  audit: true

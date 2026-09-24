@@ -1,0 +1,81 @@
+{
+  "language": "vi",
+  "durationSec": 0.5,
+  "words": [
+    {
+      "text": "Hãy",
+      "startMs": 0,
+      "endMs": 220
+    },
+    {
+      "text": "subscribe",
+      "startMs": 220,
+      "endMs": 220
+    },
+    {
+      "text": "cho",
+      "startMs": 220,
+      "endMs": 220
+    },
+    {
+      "text": "kênh",
+      "startMs": 220,
+      "endMs": 220
+    },
+    {
+      "text": "Ghiền",
+      "startMs": 220,
+      "endMs": 300
+    },
+    {
+      "text": "Mì",
+      "startMs": 300,
+      "endMs": 300
+    },
+    {
+      "text": "Gõ",
+      "startMs": 300,
+      "endMs": 500
+    },
+    {
+      "text": "Để",
+      "startMs": 500,
+      "endMs": 500
+    },
+    {
+      "text": "không",
+      "startMs": 500,
+      "endMs": 500
+    },
+    {
+      "text": "bỏ",
+      "startMs": 500,
+      "endMs": 500
+    },
+    {
+      "text": "lỡ",
+      "startMs": 500,
+      "endMs": 500
+    },
+    {
+      "text": "những",
+      "startMs": 500,
+      "endMs": 500
+    },
+    {
+      "text": "video",
+      "startMs": 500,
+      "endMs": 500
+    },
+    {
+      "text": "hấp",
+      "startMs": 500,
+      "endMs": 500
+    },
+    {
+      "text": "dẫn",
+      "startMs": 500,
+      "endMs": 500
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+version: 1
+status: draft
+last_updated: 2026-09-24
+items:
+  - id: DEC-001
+    decision: public_launch_date
+    status: needs_confirmation
+    owner_role: business_owner
+    current_value: null
+    fallback_assumption: 2026-09-24
+    impact: high
+  - id: DEC-002
+    decision: primary_channels
+    status: needs_confirmation
+    owner_role: marketing_owner
+    current_value: null
+    fallback_assumption: website, short_video, Facebook/Instagram
+    impact: high
+  - id: DEC-003
+    decision: production_cadence
+    status: proposed
+    owner_role: content_owner
+    current_value: 3-4 short_video + 2 carousel per week
+    fallback_assumption: reduce by priority order if capacity is lower
+    impact: medium
+  - id: DEC-004
+    decision: spray_product_facts
+    status: needs_confirmation
+    owner_role: product_owner
+    current_value: null
+    fallback_assumption: do not publish directions, frequency, leave-on/no-rinse wording
+    impact: high
+  - id: DEC-005
+    decision: claim_and_evidence_registry
+    status: needs_confirmation
+    owner_role: legal_content_approver
+    current_value: null
+    fallback_assumption: keep product-specific content in DRAFT/REVIEW
+    impact: high
+  - id: DEC-006
+    decision: named_owners_and_approvers
+    status: needs_confirmation
+    owner_role: business_owner
+    current_value: null
+    fallback_assumption: use role placeholders only
+    impact: high
+  - id: DEC-007
+    decision: paid_media
+    status: needs_confirmation
+    owner_role: marketing_owner
+    current_value: null
+    fallback_assumption: organic-first baseline; no spend assumed
+    impact: medium
+  - id: DEC-008
+    decision: kpi_baseline
+    status: pending_data
+    owner_role: analytics_owner
+    current_value: null
+    fallback_assumption: capture 14-day baseline before target setting
+    impact: high
