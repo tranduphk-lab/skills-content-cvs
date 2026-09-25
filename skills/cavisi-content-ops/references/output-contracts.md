@@ -121,3 +121,7 @@ Website: https://cavisi.vn
 
 Final public copy must use plain Vietnamese suitable for readers aged 30+. Any necessary English term must be explained in Vietnamese at first mention. Internal field names may remain English for machine readability.
 
+## Icon density requirement
+
+Public copy that uses icons must declare or inherit an icon policy from `iconography.md`. Default to `MINIMAL`: use icons to mark structure or meaning, not to decorate each paragraph. The canonical footer never contains icons.
+

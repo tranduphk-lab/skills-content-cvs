@@ -1,0 +1,5 @@
+interface:
+  display_name: "Cavisi Copywriter"
+  short_description: "Write compliant, evidence-aware Cavisi copy"
+  brand_color: "#00516D"
+  default_prompt: "Use $cavisi-copywriter to write or review Cavisi copy under the project parent-skill contract."

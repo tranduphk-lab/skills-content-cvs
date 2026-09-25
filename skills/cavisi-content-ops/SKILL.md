@@ -18,7 +18,18 @@ Infer one primary mode from the request:
 - `MEASURE`: interpret content results against the objective and evidence available.
 - `OPTIMIZE`: decide what to keep, revise, stop, scale, or test next.
 
+When the requested deliverable includes final public copy, use this skill as the parent router: establish the strategy and evidence boundary, then load `../cavisi-copywriter/SKILL.md` with the handoff contract in `../../CODEX.md`. After the child returns, perform the final parent validation.
+
 If the request asks for a full script or script review, use this skill to establish strategy, evidence, and brief, then route script work to `cvs-script-dna` when available. Route video editing, captions, EDL, and rendering to `tisa-ai-editor-agent` when available.
+
+## Project-local child routing
+
+This repository uses the mandatory parent-child contract in `../../CODEX.md`.
+
+- Route captions, carousel/story copy, ads, landing sections, emails, hooks, CTAs, product copy, copy revisions, channel adaptations, batch copy, and claim checks to `../cavisi-copywriter/SKILL.md`.
+- Give the child a bounded handoff containing the mode, audience, objective, channel, format, primary message, CTA, icon policy, verified facts, source IDs, prohibited claims, review markers, and output contract.
+- Do not delegate source authority, status upgrades, or final approval.
+- If the user asks for copy immediately, do not force angle approval when the direction can be selected safely from the brief.
 
 ## Source priority
 
@@ -63,7 +74,8 @@ Read [contact-footer.md](references/contact-footer.md) and append the canonical 
    `clear hook -> valid tension -> Scalp-first reframe -> mechanism/role -> evidence -> limitation -> payoff -> CTA`.
 6. Assign status: `IDEA`, `DRAFT`, `REVIEW`, or `PRODUCTION-READY`.
 7. Match the deliverable to the relevant contract in [output-contracts.md](references/output-contracts.md).
-8. Run a completion check: strategic fit, source status, claim strength, channel fit, owner, next action, and unresolved blockers.
+8. For public copy, assign an icon policy using [iconography.md](references/iconography.md); default to `MINIMAL` unless the format or user requires otherwise.
+9. Run a completion check: strategic fit, source status, claim strength, channel fit, icon density, owner, next action, and unresolved blockers.
 
 ## Mode routing
 
